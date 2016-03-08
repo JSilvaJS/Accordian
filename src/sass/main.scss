@@ -1,0 +1,161 @@
+/* CSS Entry Point */
+body {
+	background-color: orange;
+}
+
+// START OF BOX 1
+.sec_one  {
+	position: absolute;
+	width: 500px;
+	height: 183px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #2DB5B5;
+	&:hover {
+		border: 1px solid #19E2E6;
+	}
+	
+}
+
+.header_one {
+	width: 500px;
+	height: 50px;
+	border: 1px solid #2DB5B5;
+	&:hover{
+		border: 1px solid #19E2E6;
+	}
+	display: inline-block;
+	background-color: #2DB5B5;
+	&:hover {
+		background-color: #19E2E6;
+	}
+}
+
+.span_text {
+	position: absolute;
+	color: white;
+	line-height: 50px;
+	left: 25px;
+	font-size: 24px;
+}
+
+p {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 20px;
+	font-size: 14px;
+	color: #9E9E9E;
+}
+// END OF BOX 1
+
+
+// START OF BOX 2
+.sec_two  {
+	position: absolute;
+	width: 500px;
+	height: 183px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #2DB5B5;
+	&:hover {
+		border: 1px solid #19E2E6;
+	}
+	
+}
+
+.header_two {
+	width: 500px;
+	height: 50px;
+	border: 1px solid #2DB5B5;
+	&:hover{
+		border: 1px solid #19E2E6;
+	}
+	display: inline-block;
+	background-color: #2DB5B5;
+	&:hover {
+		background-color: #19E2E6;
+	}
+}
+
+.span_text {
+	position: absolute;
+	color: white;
+	line-height: 50px;
+	left: 25px;
+	font-size: 24px;
+}
+
+p {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 20px;
+	font-size: 14px;
+	color: #9E9E9E;
+}
+
+.box_2 {
+	position: absolute;
+	top: 60px;
+	background-color: white;
+	transition: all 2s;
+}
+
+.slideClass {
+	top: calc(60px + 200px);  
+};
+
+// END OF BOX 2
+
+// START OF BOX 3
+// .sec_three  {
+// 	position: absolute;
+// 	width: 500px;
+// 	height: 183px;
+// 	display: inline-block;
+// 	background-color: white;
+// 	border: 1px solid #2DB5B5;
+// 	&:hover {
+// 		border: 1px solid #19E2E6;
+// 	}
+	
+// }
+
+// .header_three {
+// 	width: 500px;
+// 	height: 50px;
+// 	border: 1px solid #2DB5B5;
+// 	&:hover{
+// 		border: 1px solid #19E2E6;
+// 	}
+// 	display: inline-block;
+// 	background-color: #2DB5B5;
+// 	&:hover {
+// 		background-color: #19E2E6;
+// 	}
+// }
+
+// .span_text {
+// 	position: absolute;
+// 	color: white;
+// 	line-height: 50px;
+// 	left: 25px;
+// 	font-size: 24px;
+// }
+
+// p {
+// 	padding-top: 10px;
+// 	padding-left: 15px;
+// 	padding-right: 20px;
+// 	font-size: 14px;
+// 	color: #9E9E9E;
+// }
+
+// .box_3 {
+// 	position: absolute;
+// 	top: 113px;
+// 	background-color: white;
+// }
+
+// END OF BOX THREE
+
+
