@@ -153,10 +153,6 @@ p {
 	display: inline-block;
 }
 
-.slideClass_3 {
-	top: calc(50px - 400px);
-}
-
 .box_3 {
 	position: absolute;
 	top: 212px;
@@ -164,15 +160,18 @@ p {
 	transition: all 2s;
 }
 
-.hidden_box div {
-	width: 500px;
-	height: 183px;
-	color: red;
-	z-index: 1px;
-	bottom: 300px;
+.slideClass3 {
+	top: 113px;
 }
 
 
 // END OF BOX THREE
 
-
+.hidden_box {
+	width: 500px;
+	height: 183px;
+	top: 500px;
+	background-color: blue;
+	z-index: 1;
+	display: inline-block;
+}
